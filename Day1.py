@@ -1,37 +1,25 @@
-
-x=3
-y=6
-
-type(x)
-<class 'int'>
-x
-3
-x+2
+Python 3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+2+3
+5
+x=2
+y=3
+x+y
 5
 _+y
-11
+8
 name="youtube"
 name
 'youtube'
-type(name)
-<class 'str'>
-name[2]
-'u'
-name[0:2]
-'yo'
+name[0]
+'y'
 name[0:3]
 'you'
-name[4:]
-'ube'
 name[3:]
 'tube'
-'my'+_
-'mytube'
-_+'.com'
-'mytube.com'
-name
-'youtube'
-name[0]='y'
-
-len(name)
-7
+"my"+name
+'myyoutube'
+"my  "+name
+'my  youtube'
+name[-1:-3]
+''
