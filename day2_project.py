@@ -1,13 +1,10 @@
-a=input()
-b=input()
-oper=input()
-
-if oper=="+":
-    print(a+b)
-elif oper=="-":
-    print(a-b)
-elif oper == "*":
-    print(a * b)
-elif oper == "/":
-    print(a/b)
-
+mark=int(input())
+if mark >=90:
+    grade='A'
+elif mark >=75:
+    grade='B'
+elif mark>=60:
+    grade='C'
+else:
+    grade='F'
+print("Grade:",grade)
